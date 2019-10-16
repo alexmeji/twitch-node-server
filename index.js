@@ -16,10 +16,6 @@ app.get("/json", (req, res) => {
   });
 });
 
-app.get('/github', (req, res) => {
-    res.send('Soy un commit a github');
-})
-
 app.get("/commit-augusto", (req, res) => {
   res.json({
     mensaje: "hola Twitch"
