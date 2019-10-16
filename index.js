@@ -16,4 +16,8 @@ app.get('/json', (req, res) => {
     });
 });
 
+app.get('/github', (req, res) => {
+    res.send('Soy un commit a github');
+})
+
 app.listen(8000, () => console.log('La aplicación esta viva....'));
